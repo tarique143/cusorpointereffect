@@ -1,0 +1,27 @@
+/* styles.css */
+body {
+    cursor: none; /* Hide the default cursor */
+}
+
+.cursor, .cursor-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Prevent the cursor from interfering with mouse events */
+}
+
+.cursor {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(238, 23, 23);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cursor-circle {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
